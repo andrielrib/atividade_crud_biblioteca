@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost'; 
-$db = 'biblioteca'; 
+$db = 'biblioteca1'; 
 $user = 'root'; 
 $pass = 'root'; 
 

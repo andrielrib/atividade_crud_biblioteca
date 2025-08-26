@@ -1,5 +1,5 @@
 <?php
-include 'php/db.php';
+include 'db.php';
 
 function listarEmprestimos($pdo) {
     $stmt = $pdo->query("SELECT e.*, l.titulo, r.nome AS leitor_nome FROM emprestimos e
@@ -21,5 +21,5 @@ function atualizarEmprestimo($pdo, $id_emprestimo, $id_livro, $id_leitor, $data_
 
 
 function excluirEmprestimo($pdo, $id_emprestimo) {
-    $stmt = $pdo->prepare("DELETE FROM emprestimos WHERE id
+    $stmt = $pdo->prepare("DELETE FROM emprestimos WHERE id autores)
     }
