@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include 'php/db.php';
 
 function listarEmprestimos($pdo) {
     $stmt = $pdo->query("SELECT e.*, l.titulo, r.nome AS leitor_nome FROM emprestimos e

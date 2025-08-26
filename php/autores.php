@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include 'php/db.php';
 
 
 function listarAutores($pdo) {

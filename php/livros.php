@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include 'php/db.php';
 
 function listarLivros($pdo) {
     $stmt = $pdo->query("SELECT * FROM livros");
