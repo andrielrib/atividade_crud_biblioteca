@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$db = 'biblioteca';
-$user = 'root';
-$pass = '';
+$host = 'localhost'; 
+$db = 'biblioteca'; 
+$user = 'root'; 
+$pass = 'root'; 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
